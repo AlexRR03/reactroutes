@@ -7,6 +7,12 @@ export default class MenuRutas extends Component {
                 <div>
                     <ul>
                         <li>
+                            <a href="/formulario">Iniciar sesion</a>
+                        </li>
+                        <li>
+                            <a href="/collatz">Collatz</a>
+                        </li>
+                        <li>
                             <a href="/">Home</a>
                         </li>
                         <li>

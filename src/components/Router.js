@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 import Home from "./Home";
 import Cine from "./Cine";
 import Musica from "./Musica";
+import FormSimple from "./FormSimple";
+import Collatz from "./Collatz";
 
 export default class Router extends Component {
   render() {
@@ -10,9 +12,11 @@ export default class Router extends Component {
       <div>
         <BrowserRouter>
             <Routes>
+            <Route path="/formulario" element={<FormSimple/>}></Route>
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/cine" element={<Cine/>}></Route>
                 <Route path="/musica" element={<Musica/>}></Route>
+                <Route path="/collatz" element={<Collatz/>}></Route>
             </Routes>
         </BrowserRouter>
       </div>
