@@ -5,11 +5,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 //import Home from './components/Home';
 import Router from './components/Router';
+import MenuRutas from './components/MenuRutas';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <h1>Pagina principal</h1>
+    <MenuRutas />
     <hr/>
     <Router/>
     <hr/>
