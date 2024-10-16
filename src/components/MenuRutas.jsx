@@ -27,6 +27,9 @@ export default class MenuRutas extends Component {
                         <li>
                             <a href="/tablaMultiplicarV2">Tabla multiplicar V2</a>
                         </li>
+                        <li>
+                            <a href="/seleccionMultiple">Selecciones multiples</a>
+                        </li>
                     </ul>
                 </div>
             </div>
